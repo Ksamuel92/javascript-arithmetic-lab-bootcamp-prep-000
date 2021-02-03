@@ -19,5 +19,9 @@ function decrement (n) {
 }
 
 function makeInt (n) {
-  return makeInt
+  return parseInt(n);
+}
+
+function preserveDecimal (n) {
+  return parseFloat(n);
 }
